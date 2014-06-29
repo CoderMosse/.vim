@@ -8,6 +8,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'klen/python-mode'
 
 call vundle#end()
 filetype plugin indent on
