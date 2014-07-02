@@ -16,7 +16,7 @@ Plugin 'SirVer/ultisnips'
 call vundle#end()
 filetype plugin indent on
 
-let g:ycm_global_ycm_extra_conf = "~./vim/ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf = "~/.vim/ycm_extra_conf.py"
 let g:pymode_rope_complete_on_dot = 0
 
 function! g:UltiSnips_Complete()
