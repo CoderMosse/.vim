@@ -1,0 +1,19 @@
+snippet ifn "Inclusion guard"
+#ifndef $1_H
+#define $1_H
+$0
+#endif //$1_H
+endsnippet
+
+snippet class "Class declaration"
+class $1 {
+	public:
+		$1();
+		~$1();
+
+		$0
+	private:
+
+};
+
+endsnippet
